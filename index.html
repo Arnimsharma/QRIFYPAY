@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page</title>
+  <style>
+    .payment-option {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .payment-option a {
+      text-decoration: none;
+      color: #000000; /* Change link color to black */
+      transition: color 0.3s ease;
+    }
+    .payment-option a:hover {
+      color: #333333; /* Darker shade of black when hovered */
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Payment Page Content -->
+  <div class="payment-container">
+    <h1 style="background-color: #f9e616;">Complete Your Payment</h1>
+    </h1>
+    <p>Please select your preferred payment method.</p>
+
+    <!-- Payment Options -->
+    <div class="payment-options">
+      <div class="payment-option">
+        <a href="#" id="phone-pay-link">
+          <img src="https://img.icons8.com/?size=512&id=OYtBxIlJwMGA&format=png" alt="Phone Pay">
+          <p>Phone Pay</p>
+        </a>
+      </div>
+      <div class="payment-option">
+        <a href="#" id="paytm-link">
+          <img src="https://raw.githubusercontent.com/hdpngworld/HPW/main/uploads/650d41381232a-l.png" alt="Paytm">
+          <p>Paytm</p>
+        </a>
+      </div>
+      <div class="payment-option">
+        <a href="#" id="google-pay-link">
+          <img src="https://i.pinimg.com/736x/4b/3a/d6/4b3ad6744af7f31c9fb3b08715bef0f4.jpg" alt="Google Pay">
+          <p><a href="https://www.google.com" target="_blank">Google Pay</a></p>
+        </a>
+      </div>
+      <div class="payment-option">
+        <a href="#" id="amazon-pay-link">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968202.png" alt="Amazon Pay">
+          <p>Amazon Pay</p>
+        </a>
+      </div>
+      <div class="payment-option">
+        <a href="#" id="bank-transfer-link">
+          <img src="https://png.pngtree.com/template/20190308/ourmid/pngtree-banking-logo-image_63077.jpg" alt="Bank Transfer">
+          <p>Direct Bank Transfer</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Payment Confirmation Button -->
+    <div class="payment-confirmation">
+      <button id="confirm-payment">Confirm Payment</button>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .payment-container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Payment Options */
+  .payment-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .payment-option {
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .payment-option img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .payment-option:hover img {
+    transform: scale(1.1);
+  }
+  
+  .payment-option p {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Confirmation Button */
+  .payment-confirmation {
+    margin-top: 20px;
+  }
+  
+  #confirm-payment {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #confirm-payment:hover {
+    background-color: #45a049;
+  }
+  
+  #confirm-payment:active {
+    background-color: #398a39;
+  }
+  
